@@ -1,0 +1,19 @@
+user:
+  errors:
+    error-messages:
+      unknown-error:
+        code: unknown-error
+        message: |-
+          Si è verificato un errore.
+          Riprova più tardi
+        status: 500
+      user-not-found:
+        code: user-not-found
+        message: |-
+          L'utente con id '%s' non è stato trovato
+        status: 404
+      user-exists:
+        code: user-exists
+        message: |-
+          Il nome '%s' non è disponibile
+        status: 403
