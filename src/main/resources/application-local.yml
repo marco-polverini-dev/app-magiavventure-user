@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/magiavventure
+      uuid-representation: standard
+      auto-index-creation: true
+
+logging:
+  level:
+    app.magiavventure: debug
+
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
