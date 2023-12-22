@@ -5,7 +5,7 @@ plugins {
 	id 'jacoco'
 }
 
-group = 'it.app.magiavventure'
+group = 'it.app.magiavventure.test'
 version = '1.0.0'
 
 java {
