@@ -25,11 +25,11 @@ jacocoTestReport {
 		classDirectories.setFrom(files(classDirectories.files.collect {
 			fileTree(dir: it,
 					exclude: [
-					        'app/magiavventure/category/repository**',
-							'app/magiavventure/category/model**',
-							'app/magiavventure/category/entity**',
-							'app/magiavventure/category/configuration**',
-							'app/magiavventure/category/CategoryApplication.class'
+					        'app/magiavventure/user/repository**',
+							'app/magiavventure/user/model**',
+							'app/magiavventure/user/entity**',
+							'app/magiavventure/user/configuration**',
+							'app/magiavventure/user/UserApplication.class'
 					])
 		}))
 	}
