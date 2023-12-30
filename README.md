@@ -1,5 +1,7 @@
 # Magiavventure - User
 
+[![codecov](https://codecov.io/gh/marco-polverini-dev/app-magiavventure-user/graph/badge.svg?token=GQKL0UIB15)](https://codecov.io/gh/marco-polverini-dev/app-magiavventure-user)
+
 This service allows to create/update/delete/find users used by Magiavventure App.
 
 ## Configuration
